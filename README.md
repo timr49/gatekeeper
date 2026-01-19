@@ -15,9 +15,14 @@ GateKeeper is designed to monitor and to control an electric gate controller. Un
 
 In its first instantiation, it was designed and built for:
 1. a heavy sliding gate approximately 5 metres long;
-2. a *Centsys D2 Turbo Low Voltage* gate motor controller with a 12VDC motor, backup battery and 240VAC to 12VDC adapter/charger;
+2. a *Centsys D2 Turbo Low Voltage* gate motor controller;
 3. integration with *Home Assistant* for user interface and exception monitoring.
-For details of the *Centsys D2 Turbo Low Voltage* see:
+
+The *Centsys D2 Turbo Low Voltage* has:
+1. a 12VDC motor;
+2. external low voltage AC transformer;
+3. internal backup battery.
+For more information, see:
 1. [D2 Turbo and D2 Turbo Low-Voltage Installation Manual](https://www.centsys.com.au/wp-content/uploads/2022/01/1195.D.01.0001-D2-Turbo-D2-Turbo-Low-V-IM-11012022MT_Web.pdf)
 2. [D2 Turbo and D2 Turbo Low-Voltage User Guide](https://www.centsys.com.au/pdf/D2_Turbo/1195.D.01.0006%20D2%20Turbo%20Low-Voltage%20User%20Guide%20CENTSYS-%2029062018BM.pdf)
 
