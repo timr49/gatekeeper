@@ -1,7 +1,7 @@
 
 # GateKeeper
 
-## Hardware Version: 2.10.1
+## Hardware Version: 2.10.0
 
 ## Author: @timr49
 
@@ -10,8 +10,7 @@
 GateKeeper is designed to monitor and to control an electric gate controller. Unlike a "smart" garage door interface, as well as triggering the open/close mechanism and sensing the closed position, it also monitors and publishes:
 1. whether the gate (motor) is moving;
 2. if so, in which direction it is moving;
-3. whether the gate is fully open, fully closed or somewhere in between;
-4. optionally, the state of the "safe" signal from a photo beam or similar, if any.
+3. whether the gate is fully open, fully closed or somewhere in between.
 
 In its first instantiation, it was designed and built for:
 1. a heavy sliding gate approximately 5 metres long;
