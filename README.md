@@ -1,7 +1,7 @@
 
 # GateKeeper
 
-## Hardware Version: 2.10.4
+## Hardware Version: 2.10.1
 
 ## Author: @timr49
 
@@ -42,10 +42,9 @@ Features of the circuit include:
 Design notes:
 1. The motor inputs use a pair of optoisolators, which isolate the motor voltages from the remainder of the circuitry. In addition, the photodiodes in the optoisolators
 "decode" the direction of movement from the polarity of the voltage applied across the motor;
-2. a position-sensor analog input driven by a resistor network that combines the opened and closed digital sensors into one analog input; this would have been two digital inputs except there was not quite enough input ports or cables to support the second input signal;
-3. the MCU used is a *LOLIN WeMOS ESP32-C3 Pico*, chosen for its compact size and adequate number of digital and analog inputs;
-4. a *TR05S3V3* 12VDC to 3.3VDC DC-DC convertor supplies 3.3VDC power to the MCU and related circuitry;
-5. for a schematic, see the *.pdf* or EAGLE *.sch* file in the *hardware* directory.
+2. the MCU used is a *LOLIN WeMOS ESP32-C3 Pico*, chosen for its compact size and adequate number of digital and analog inputs;
+3. a *TR05S3V3* 12VDC to 3.3VDC DC-DC convertor supplies 3.3VDC power to the MCU and related circuitry;
+4. for a schematic, see the *.pdf* or EAGLE *.sch* file in the *hardware* directory.
 
 Build notes:
 1. the MCU and related circuitry is housed in a 65x60x30 mm waterproof enclosure (which fits inside the cover of the Turbo D2);
@@ -54,7 +53,7 @@ Build notes:
 4. for images, see the JPEG files in the *hardware* directory.
 
 TODO:
-1. A diagram showing the interconnections between this circuit and the Turbo D2 would be useful.
+1. A diagram showing the interconnections between this circuit and the Turbo D2 and other connections would be useful.
 
 ---
 
