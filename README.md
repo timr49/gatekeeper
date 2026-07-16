@@ -52,8 +52,9 @@ Design notes:
 Build notes:
 1. the Shelly I4 DC and custom circuitry is housed in a 65x60x30 mm waterproof enclosure (which fits inside the cover of the Turbo D2);
 2. the Shelly Plus 1 is not enclosed but rather is mounted on the top of the Turbo D2 controller, secured with a cable tie;
-3. the 12V power and sensor wires penetrate the enclosure via an IP68 gland (size PG9);
-4. for images, see the JPEG files in the *hardware* directory.
+3. in the **Input/Output settings** for the Shelly Plus 1, the *output type for Output(0)* must be set to *Detached* and the *Action on power on for Output (0)* must be set to *Turn OFF*;
+4. the 12V power and sensor wires penetrate the enclosure via an IP68 gland (size PG9);
+5. for images, see the JPEG files in the *hardware* directory.
 
 TODO:
 1. A diagram showing the interconnections between this circuit and the Turbo D2 and other connections would be useful.
